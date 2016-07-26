@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+   cloud:
+     config:
+       enabled: true
+       server:
+         git:
+           uri: https://github.com/dendron8/configuration.git
+logging:
+  level:
+    root: info
+    org.springframework: info
