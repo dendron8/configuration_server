@@ -10,12 +10,3 @@ logging:
   level:
     root: info
     org.springframework: info
-eureka:
-  instance:
-    prefer-ip-address: true
-    hostname: 10.0.2.2
-    ip-address: 10.0.2.2
-  client:
-    serviceUrl:
-      #defaultZone: http://localhost:8761/eureka/
-      defaultZone: http://10.0.2.2:8761/eureka/ #this is for virutalbox
