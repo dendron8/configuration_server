@@ -12,7 +12,6 @@ logging:
     org.springframework: info
 eureka:
   instance:
-    prefer-ip-address: true
     ip-address: 10.0.2.2
   client:
     serviceUrl:
